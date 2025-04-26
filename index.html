@@ -1,86 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hello World</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background: linear-gradient(135deg, #ff4081, #673ab7);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: white;
-      overflow: hidden;
-      animation: backgroundAnimation 10s ease-in-out infinite;
-    }
-
-    .container {
-      text-align: center;
-      animation: fadeIn 2s ease-out;
-    }
-
-    h1 {
-      font-size: 6rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      animation: textGlow 1.5s ease-in-out infinite alternate;
-    }
-
-    p {
-      font-size: 1.5rem;
-      margin-top: 10px;
-      font-weight: 300;
-      animation: slideUp 1.5s ease-in-out infinite alternate;
-    }
-
-    @keyframes textGlow {
-      0% {
-        text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.6);
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World!</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
       }
-      100% {
-        text-shadow: 0 0 30px rgba(255, 255, 255, 1), 0 0 60px rgba(255, 255, 255, 0.8);
-      }
-    }
-
-    @keyframes backgroundAnimation {
-      0% {
-        background: linear-gradient(135deg, #ff4081, #673ab7);
-      }
-      50% {
-        background: linear-gradient(135deg, #3f51b5, #ff5722);
-      }
-      100% {
-        background: linear-gradient(135deg, #ff4081, #673ab7);
-      }
-    }
-
-    @keyframes slideUp {
-      0% {
-        transform: translateY(20px);
-        opacity: 0;
-      }
-      100% {
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }
-
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Hello, World!</h1>
-    <p>Welcome to the amazing web!</p>
-  </div>
-</body>
+    </style>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
 </html>
